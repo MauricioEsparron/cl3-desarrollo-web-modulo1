@@ -1,0 +1,22 @@
+.container{
+    /*background-color: rgb(54, 179, 147);*/
+    border-bottom: solid 1px #ccc;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 30px;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.subcontainer{
+    text-align: center;
+}
+.titulo{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.list{
+    width: 100%;
+    margin: 0 auto;
+}

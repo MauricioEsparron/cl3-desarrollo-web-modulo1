@@ -1,0 +1,26 @@
+.container-datos{
+    border: 2px solid goldenrod;
+    padding: 150px;
+    margin: 50px;
+ }
+ .datos-contacto{
+     text-align: justify;
+     margin: 10px;
+     display: flex;
+     width: 50%;
+     padding: 5px;
+     margin: auto;
+ }
+ .titulo-Datos{
+     text-align: center;
+     font-size: 30px;
+     color: black;
+     margin-bottom: 30px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .label-datos{
+    width: 50%;
+ }
+ .input-datos{
+    width: 50%;
+ }

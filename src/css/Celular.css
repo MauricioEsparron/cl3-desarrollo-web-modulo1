@@ -1,0 +1,25 @@
+.container-celular{
+    border: 2px solid red;
+    padding: 30px;
+}
+.subcontainer-celular{
+    display: inline-block;
+    border: 2px solid cadetblue;
+    width: 100%;
+    border-radius: 20px;
+}
+.bloque{
+    display: flex;
+    width: 100%;
+}
+.image{
+    display: block;
+}
+.precio-label{
+    padding: 5px;
+    text-align: left;
+}
+info-celular{
+    text-align: right;
+    margin: 5px;
+}

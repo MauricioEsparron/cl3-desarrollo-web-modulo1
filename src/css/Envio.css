@@ -1,0 +1,29 @@
+.container-envio{
+    border: 2px solid slateblue;
+ padding: 150px;
+    margin: 50px;
+}
+ .datos-envio{
+    text-align: justify;
+    margin: 10px;
+    display: flex;
+    width: 50%;
+    padding: 5px;
+    margin: auto;
+ }
+.btn-enviar{
+    background-color: rgb(54, 179, 147);
+    color: #fff;
+    width: 200px;
+    height: 70px;
+    font-size: large;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.label-envio{
+   width: 50%;
+}
+.input-envio{
+   width: 50%;
+}

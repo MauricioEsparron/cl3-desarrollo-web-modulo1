@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Lista from './Lista';
+import Contacto from './Contacto';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      Celulares: [
+        { modelo: 'XYZ', precioUSD: 500, imagen: 'F1.png' },
+        { modelo: 'QWE', precioUSD: 600, imagen: 'F2.png' },
+        { modelo: 'UIO', precioUSD: 545, imagen: 'F3.png' }]  
+    };
+
+  }
+  render() {
+    return (
+      <div className="App">
+        <Lista items= {this.state.Celulares}/>
+        <Contacto codigoPromocional="TQ5678"Nacionalidad ="Peruana"/>
+      </div>
+    );
+  }
 }
 
 export default App;
